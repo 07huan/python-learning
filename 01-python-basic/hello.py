@@ -1,9 +1,5 @@
-name = "小明"
-age = 20
-height = 1.75
-is_student = True
+name = input("请输入你的名字：")
+age = input("请输入你的年龄：")
 
-print(name)
-print(age)
-print(height)
-print(is_student)
+print("你好", name)
+print("你的年龄是", age)
