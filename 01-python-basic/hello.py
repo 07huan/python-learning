@@ -1,5 +1,8 @@
-name = input("请输入你的名字：")
-age = int(input("请输入你的年龄："))
+num=int(input("请输入一个数字："))
 
-print("你好，" + name)
-print("明年你将", age + 1, "岁")
+if num > 0:
+    print("这是一个正数")
+elif num < 0:
+    print("这是一个负数")
+else:
+    print("这是0")
