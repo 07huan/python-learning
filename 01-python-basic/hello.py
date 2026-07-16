@@ -1,7 +1,5 @@
-num1 = float(input("请输入第一个数字："))
-num2 = float(input("请输入第二个数字："))
+name = input("请输入你的名字：")
+age = int(input("请输入你的年龄："))
 
-print("加法结果：", num1 + num2)
-print("减法结果：", num1 - num2)
-print("乘法结果：", num1 * num2)
-print("除法结果：", num1 / num2)
+print("你好，" + name)
+print("明年你将", age + 1, "岁")
