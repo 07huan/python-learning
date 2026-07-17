@@ -1,8 +1,9 @@
-num=int(input("请输入一个数字："))
+scores = [60, 75, 88, 92, 55]
 
-if num > 0:
-    print("这是一个正数")
-elif num < 0:
-    print("这是一个负数")
-else:
-    print("这是0")
+for score in scores:
+    if   60 <= score <= 70:
+        print(score,"及格")
+    elif 70 < score < 100 :
+        print(score,"优秀")
+    else:
+        print(score,"不合格")
