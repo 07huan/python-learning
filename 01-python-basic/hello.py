@@ -1,12 +1,12 @@
-import random
-num = random.randint(0,100)
-
-while True:
-    guess = int(input("请输入你的数字："))
-    if guess > num:
-        print("你猜大了")
-    elif guess < num:
-        print("你猜小了")
+scores = [70, 55, 90, 40, 85]
+for score in scores:
+    print(score)
+count=0
+for score in scores:
+    if score >= 60:
+        print(score,"合格")
+        count += 1
     else:
-        print("你猜对了")
-        break
+        print(score,"不合格")
+
+print(f"合格人数为：{count}")
