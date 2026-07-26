@@ -1,5 +1,9 @@
-thing = input("请输入你要买的东西：")
-money = input("请输入东西的金额：")
+try:
+    num = int(input("请输入数字："))
+    print(num)
 
-with open("bill1.txt","a") as file:
-    file.write(f"{thing}, {money}元\n")
+except ValueError:
+    print("输入错误")
+
+finally:
+    print("程序运行结束")
